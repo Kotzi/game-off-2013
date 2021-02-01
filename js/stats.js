@@ -1,12 +1,7 @@
 $(function() {
 	'use strict';
 
-	var stats;
-
-	$.get('http://chchchchchanges-stats.herokuapp.com/stats', function(data) {
-		stats = data;
-		showStats();
-	});
+	var stats = { };
 
 	function showStats() {
 		var statsContainer = $('.stats');
@@ -23,13 +18,10 @@ $(function() {
 	}
 
 	me.event.subscribe('/game/finished', function(newStats) {
-		debugger;
-		stats.waterRaised = (Number(stats.waterRaised) / 10 + newStats.waterRaised).toFixed(2);
-		stats.yearsLost = Number(stats.yearsLost) + newStats.yearsLost;
-		stats.iceMelted = (Number(stats.iceMelted) / 10 + newStats.iceMelted).toFixed(2);
-		stats.animalsKilled = Number(stats.animalsKilled) + newStats.animalsKilled;
+		stats.waterRaised = newStats.waterRaised.toFixed(2);
+		stats.yearsLost = newStats.yearsLost;
+		stats.iceMelted = newStats.iceMelted.toFixed(2);
+		stats.animalsKilled = newStats.animalsKilled;
 		showStats();
-
-		$.post('http://chchchchchanges-stats.herokuapp.com/stats', newStats);
 	});
 });
