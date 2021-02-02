@@ -1,51 +1,51 @@
 define([], function() {
 	return [
 		// Graphics
-		{name: 'tile', type: 'image', src: '/game-off-2013/assets/tile.png'},
-		{name: 'pjTile', type: 'image', src: '/game-off-2013/assets/pjtile.png'},
-		{name: 'iceTile', type: 'image', src: '/game-off-2013/assets/ice.png'},
-		{name: 'pantherTile', type: 'image', src: '/game-off-2013/assets/panthertile.png'},
-		{name: 'log', type: 'image', src: '/game-off-2013/assets/log.png'},
-		{name: 'waterTool', type: 'image', src: '/game-off-2013/assets/watertool.png'},
-		{name: 'meltTool', type: 'image', src: '/game-off-2013/assets/melttool.png'},
-		{name: 'poisonTool', type: 'image', src: '/game-off-2013/assets/poisontool.png'},
-		{name: 'poisonBlast', type: 'image', src: '/game-off-2013/assets/blast.png'},
-		{name: 'hudToolContainer', type: 'image', src: '/game-off-2013/assets/toolcontainer.png'},
+		{name: 'tile', type: 'image', src: 'assets/tile.png'},
+		{name: 'pjTile', type: 'image', src: 'assets/pjtile.png'},
+		{name: 'iceTile', type: 'image', src: 'assets/ice.png'},
+		{name: 'pantherTile', type: 'image', src: 'assets/panthertile.png'},
+		{name: 'log', type: 'image', src: 'assets/log.png'},
+		{name: 'waterTool', type: 'image', src: 'assets/watertool.png'},
+		{name: 'meltTool', type: 'image', src: 'assets/melttool.png'},
+		{name: 'poisonTool', type: 'image', src: 'assets/poisontool.png'},
+		{name: 'poisonBlast', type: 'image', src: 'assets/blast.png'},
+		{name: 'hudToolContainer', type: 'image', src: 'assets/toolcontainer.png'},
 
-		{name: 'logo', type: 'image', src: '/game-off-2013/assets/logo.png'},
-		{name: 'difusebg', type: 'image', src: '/game-off-2013/assets/difusebg.png'},
+		{name: 'logo', type: 'image', src: 'assets/logo.png'},
+		{name: 'difusebg', type: 'image', src: 'assets/difusebg.png'},
 
 		// Hints
-    {name: 'hintWater', type: 'image', src: '/game-off-2013/assets/hintwater.png'},
-    {name: 'hintMelt', type: 'image', src: '/game-off-2013/assets/hintmelt.png'},
-    {name: 'hintPoison', type: 'image', src: '/game-off-2013/assets/hintpoison.png'},
-    {name: 'hintReset', type: 'image', src: '/game-off-2013/assets/hintreset.png'},
-    {name: 'hintPermanent', type: 'image', src: '/game-off-2013/assets/hintpermanent.png'},
+		{name: 'hintWater', type: 'image', src: 'assets/hintwater.png'},
+		{name: 'hintMelt', type: 'image', src: 'assets/hintmelt.png'},
+		{name: 'hintPoison', type: 'image', src: 'assets/hintpoison.png'},
+		{name: 'hintReset', type: 'image', src: 'assets/hintreset.png'},
+		{name: 'hintPermanent', type: 'image', src: 'assets/hintpermanent.png'},
 
 		// Background
-		{name: 'sky', type: 'image', src: '/game-off-2013/assets/sky.png'},
-		{name: 'ground', type: 'image', src: '/game-off-2013/assets/ground.png'},
-		{name: 'clouds', type: 'image', src: '/game-off-2013/assets/clouds.png'},
-		{name: 'sun', type: 'image', src: '/game-off-2013/assets/sun.png'},
+		{name: 'sky', type: 'image', src: 'assets/sky.png'},
+		{name: 'ground', type: 'image', src: 'assets/ground.png'},
+		{name: 'clouds', type: 'image', src: 'assets/clouds.png'},
+		{name: 'sun', type: 'image', src: 'assets/sun.png'},
 
 		// Maps
-		{name: 'level1', type: 'tmx', src: '/game-off-2013/data/level1.tmx'},
-		{name: 'level2', type: 'tmx', src: '/game-off-2013/data/level2.tmx'},
-		{name: 'level3', type: 'tmx', src: '/game-off-2013/data/level3.tmx'},
-		{name: 'level4', type: 'tmx', src: '/game-off-2013/data/level4.tmx'},
-		{name: 'level5', type: 'tmx', src: '/game-off-2013/data/level5.tmx'},
-		{name: 'level6', type: 'tmx', src: '/game-off-2013/data/level6.tmx'},
-		{name: 'level7', type: 'tmx', src: '/game-off-2013/data/level7.tmx'},
-		{name: 'level8', type: 'tmx', src: '/game-off-2013/data/level8.tmx'},
-		{name: 'level9', type: 'tmx', src: '/game-off-2013/data/level9.tmx'},
-		{name: 'level10', type: 'tmx', src: '/game-off-2013/data/level10.tmx'},
+		{name: 'level1', type: 'tmx', src: 'data/level1.tmx'},
+		{name: 'level2', type: 'tmx', src: 'data/level2.tmx'},
+		{name: 'level3', type: 'tmx', src: 'data/level3.tmx'},
+		{name: 'level4', type: 'tmx', src: 'data/level4.tmx'},
+		{name: 'level5', type: 'tmx', src: 'data/level5.tmx'},
+		{name: 'level6', type: 'tmx', src: 'data/level6.tmx'},
+		{name: 'level7', type: 'tmx', src: 'data/level7.tmx'},
+		{name: 'level8', type: 'tmx', src: 'data/level8.tmx'},
+		{name: 'level9', type: 'tmx', src: 'data/level9.tmx'},
+		{name: 'level10', type: 'tmx', src: 'data/level10.tmx'},
 
 		// Background Music
-		{name: "background", type: "audio", src: "/game-off-2013/data/music/", channel : 1},
+		{name: "background", type: "audio", src: "data/music/", channel : 1},
 
 		// SFX
-		{name: "step", type: "audio", src: "/game-off-2013/data/sfx/", channel : 1},
-		{name: "newTool", type: "audio", src: "/game-off-2013/data/sfx/", channel : 1},
-		{name: "waterNoise", type: "audio", src: "/game-off-2013/data/sfx/", channel : 1}
+		{name: "step", type: "audio", src: "data/sfx/", channel : 1},
+		{name: "newTool", type: "audio", src: "data/sfx/", channel : 1},
+		{name: "waterNoise", type: "audio", src: "data/sfx/", channel : 1}
 	];
 });
